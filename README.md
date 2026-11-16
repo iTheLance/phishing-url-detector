@@ -4,7 +4,7 @@ A machine learning model that flags phishing links from the text of the URL alon
 
 I work in cyber threat intelligence, where a big part of the job is chasing fake banking and wallet sites that copy real brands. I wanted to see how far a lightweight, URL-only model could go, and to test it the way it would actually be used: on links it has never seen before.
 
-The most useful thing I found was not the model. It was that the standard way of testing on this dataset gives a score that means almost nothing.
+The most useful thing I found was that the standard way of testing on this dataset gives a score that almost didn't mean anything.
 
 ![Results](reports/figures/01_shortcut_vs_fair.png)
 
@@ -129,4 +129,4 @@ reports/figures/      charts
 
 Built with Python, scikit-learn, pandas and matplotlib.
 
-Author: Abdulazeez Abdulhakeem Abiola, [LinkedIn](http://www.linkedin.com/in/ithelance) · [Medium](https://ithelance.medium.com/)
+Author: AbdulAzeez Abiola AbdulHakeem, [LinkedIn](http://www.linkedin.com/in/ithelance) · [Medium](https://ithelance.medium.com/)
